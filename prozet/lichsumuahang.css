@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+/* /**muc 1 */
+
+.navbar-1{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 3em;
+    position: relative;
+}
+.nav-1{
+    position: absolute;
+    left: 2em;
+    top: 0.8em;
+}
+.nav-2{
+    position: absolute;
+    right: 2em;
+    top: 0.8em;
+}
+
+ /* /**muc 2 */
+ .form-control {
+    position: relative!important;
+    
+    right: 230px;
+}
+svg.bi.bi-search {
+    position: absolute;
+    top: 30px;
+    right: 260px;
+
+    z-index: 1;
+}
+.btn{
+   position: absolute;
+   background-color: white!important;
+   border: none!important;
+}
+.modal-footer .btn{
+    background-color: aqua!important;
+    color: white;
+}
+svg.bi.bi-suit-heart-fill {
+    position: absolute;
+    right: 125px;
+}
+.btn-btn-primary{
+    position: absolute;
+    right: 54px;
+    border: none;
+    background-color: white;
+}
+/* muc 3 */
+.list-group{
+    padding-bottom: 90px;
+}
+/* muc 4 */
+.container img{
+    width: 100%;
+    margin: 0;
+    transition: transform 0.2s;
+}
+.container img:hover{
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+}
+/* muc 5 */
+.aside{
+    display: flex;
+   justify-content: center  ;
+    gap: 82px   ;
+    margin-top: 40px;
+   
+  
+}
+.aside .thongtin{
+width: 20rem;
+}
+.aside ul{
+    list-style: none;
+}
+/* muc 6 */
+.footer{
+    display: flex;
+    gap:30px;
+  
+    background-color: lightgrey;
+   padding: 10px 0 10px 15px;
+    height: 70px;
+}
+.footer img{
+    width: 15%;
+}

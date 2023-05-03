@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  padding: 30px;
+  background-color: #ccc;
+}
+
+
+
+/* CSS cho form đăng ký */
+#register-form {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #472020;
+  border-radius: 5px;
+}
+
+#register-formh2 {
+  margin-top: 0;
+}
+
+#register-formlabel {
+  margin-top: 10px;
+}
+
+#register-form input[type="text"],
+#register-form input[type="email"],
+#register-form input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#register-form button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#register-formbutton[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* CSS cho form đăng nhập */
+#login-form {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #472020;
+  border-radius: 5px;
+  
+}
+
+#login-form h2 {
+  margin-top: 0;
+}
+
+#login-form label {
+  margin-top: 10px;
+}
+#login-password {
+  height: 39px;
+  border-radius: 5px;
+}
+
+#login-form input[type="text"],
+
+#login-forminput[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#login-form button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#login-form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
